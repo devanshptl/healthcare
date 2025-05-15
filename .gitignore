@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Env
+.env
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.env.*
+
+# VSCode
+.vscode/
+
+# Pytest and coverage
+htmlcov/
+.coverage
+.cache
+.pytest_cache/
+
+# Migrations 
+**/migrations/*.py
+**/migrations/__pycache__/
+
+# JWT 
+jwt_tokens.json
+
+# OS files
+.DS_Store
+Thumbs.db
